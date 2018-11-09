@@ -1,0 +1,67 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html{
+	background-color: #FFC8A9;
+}
+
+body{
+	font:40px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+.cabecalho-leve{
+	padding: 20px 40px;
+	box-sizing:border-box;
+	box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.15);
+	height: 100px;
+	background-color: #fff;
+}
+
+.cabecalho-leve .cabecalho-limite {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.cabecalho-leve .cabecalho-limite h1{
+	float: left;
+	font: normal 80px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 60px;
+	margin: 0;
+}
+
+.cabecalho-leve .cabecalho-limite h1 span {
+	color: #EE671B;
+}
+
+/* The header links */
+
+.cabecalho-leve .cabecalho-limite a {
+	color: #FFC8A9;
+	text-decoration: none;
+}
+
+.cabecalho-leve .cabecalho-limite nav{
+	font:25px Arial, Helvetica, sans-serif;
+	line-height: 60px;
+	float: right;
+}
+
+.cabecalho-leve .cabecalho-limite nav a{
+	display: inline-block;
+	padding: 0 5px;
+	opacity: 0.9;
+	text-decoration:none;
+	color: #EE671B;
+	line-height:1;
+}
+
+.cabecalho-leve .cabecalho-limite nav a.selected {
+	background-color: #86a3d5;
+	color: #FFC8A9;
+	border-radius: 3px;
+	padding:6px 10px;
+}
