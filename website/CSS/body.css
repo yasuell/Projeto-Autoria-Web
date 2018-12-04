@@ -1,0 +1,139 @@
+body{
+	background-color: #c7858e;
+	display: flex;
+	justify-content: center;
+}
+.titulopost{
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: 500;
+	color: #c7858e;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	margin-top: -60px;
+}
+p{
+	font-family: Roboto Condensed;
+	font-size: 15px;
+	padding: 0px 15px 10px 20px; 
+}
+#divpostagens{
+	width: 700px;
+	height: 850px;
+	background-color: #a23645;
+	margin: 60px auto 40px auto;
+	box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.2);
+}
+#limit1{
+	position: absolute; 
+	width: 1300px;
+	height: 800px;
+	top: 190px;
+	color: black;
+}
+#limit2{ 
+	position: absolute;
+	width: 1200px;
+	height: 820px;
+	top: 230px;
+}
+#divquin{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 140px 0px 40px 0px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+#divbarroco{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 140px 0px 40px 450px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+#divarcadismo{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 140px 0px 40px 900px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+#divromantismo{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 480px 20px 40px 0px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+#divrealismo{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 480px 20px 40px 450px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+#divparn{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 480px 20px 40px 900px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+#divsim{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 820px 20px 40px 0px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+#divmor{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	margin: 820px 20px 40px 450px;
+	background-color: #a23645;
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.3);
+}
+/*esse aqui mexe na cor do nome das div*/
+.titulodiv{
+	font-family: Times New Roma;
+	font-size: 35px;
+	color: #Ecedec;
+	display: flex;
+	justify-content: center;
+	padding-top: 45px;
+}
+.btn{
+	font-family: Courier;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	background: #57000C;
+	margin: 1.5em;
+	padding: 0.5em 1em;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+	border-radius: 0.5em;
+}
+#btn1{
+	position: absolute;
+	margin: 30px 50px 0 160px;
+}
+#btnvoltar{
+	position: absolute;
+	margin: 60px 0 0 90px;
+}
+#titulomenu{
+	position: absolute;
+	left: 0px;
+	font-size: 35px;
+	color: #a23645;
+	margin-top: 50px;
+}

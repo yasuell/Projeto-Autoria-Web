@@ -1,0 +1,77 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html{
+
+	background-color: #EDECEC;
+}
+
+body{
+	font:100px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+.cabecalho-leve{
+	/*aqui eu ajeito o tamanho do cabeçalho*/
+	box-sizing:border-box;
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.15);
+	height: 200px;
+	width: 100%;
+	background-color: #C7858E;
+}
+
+.cabecalho-limite {
+	width: 100%;
+	text-align: center;
+	margin: 4 auto;
+}
+
+/* Logo */
+
+.cabecalho-leve .cabecalho-limite h1{
+	/*aqui eu ajeito o tamanho da fonte do amoliterartura*/
+	float: left;
+	font: normal 200px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 200px;
+	margin: 0;
+	margin-left: 80px;
+}
+
+.cabecalho-leve .cabecalho-limite h1 span {
+	color: #57000C;
+}
+
+/* The header links */
+
+.cabecalho-leve .cabecalho-limite a {
+	color: #7C0011;
+	text-decoration: none;
+	margin-right: 70px;
+	padding: 0px 0px;
+}
+
+.cabecalho-leve .cabecalho-limite nav{
+	/*aqui eu ajeito as fonte dos pequenos ao lado do titulo*/
+	font:25px Arial, Helvetica, sans-serif;
+	line-height: 200px;
+	float: right;
+	margin-right: 130px;
+}
+
+.cabecalho-leve .cabecalho-limite nav a{
+	/*aqui eu ajeito a letra das opções o lado do titulo*/
+	display: inline-block;
+	padding: 0 0px;
+	opacity: 0.7;
+	text-decoration:none;
+	color: #7C0011;
+	line-height:8;
+	margin: 13px;
+}
+
+.cabecalho-leve .cabecalho-limite nav a.selected {
+	background-color: #EDECEC;
+	color: #57000C;
+	border-radius: 10px;
+	padding:25px 40px;
+}
